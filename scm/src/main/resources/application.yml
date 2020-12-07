@@ -1,0 +1,20 @@
+spring:
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/cube
+    user: postgres
+    baselineOnMigrate: true
+  datasource:
+    password: postgres
+    url: jdbc:postgresql://localhost:5432/cube
+    username: postgres
+#  jpa:
+#    database-platform: org.hibernate.dialect.PostgreSQLDialect
+#    generate-ddl: true
+#    hibernate:
+#      ddl-auto: create
+
+
+
