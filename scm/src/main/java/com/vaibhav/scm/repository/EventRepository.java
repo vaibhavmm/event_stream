@@ -1,6 +1,5 @@
 package com.vaibhav.scm.repository;
 
-import com.vaibhav.scm.EventModel;
 import com.vaibhav.scm.entity.Event;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
